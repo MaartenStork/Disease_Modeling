@@ -1,8 +1,13 @@
-# DiseaseModeling
-This repository focuses on modeling the spread of diseases, specifically through the exploration of the SIR (Susceptible-Infected-Recovered) model. The aim is to provide an understanding of how infectious diseases propagate and can be managed within populations. Each folder includes .ipynb files used for simulations along with a formal report that delves into the findings and interpretations.
+# Disease Modeling
 
-### First Folder: Disease Modeling with SIR and SEIR Models
-This folder centers on the application of Python to model the dynamics of infectious diseases using the SIR (Susceptible-Infected-Recovered) and SEIR (Susceptible-Exposed-Infected-Recovered) models. It provides an exploration into the transmission and recovery processes of diseases within a population. The code delves into the behavior of epidemics through simulations, presenting scenarios that help in understanding how disease parameters affect population health. This includes demonstrations of oscillatory behaviors and phase portraits to visualize the trajectory of disease spread under varying conditions.
+This repository models the spread of diseases using the SIR (Susceptible-Infected-Recovered) and SEIR (Susceptible-Exposed-Infected-Recovered) models. It provides insights into how infectious diseases propagate and can be managed within populations. Each folder includes `.ipynb` simulation files and formal reports detailing the findings.
 
-### Second Folder: (More) Advanced Topics in Epidemiological Modeling
-This folder extends the foundational concepts of disease modeling to include more advanced and specialized topics. It explores stochastic processes, parameter sensitivity analysis, and the impact of various parameters on disease dynamics. The content covers stochastic resonance in epidemiological models, the influence of different parameters on transient dynamics, and advanced modeling techniques like network-based epidemiological models and specific vaccination strategy simulations. Detailed simulations and visualizations are performed to provide a deep understanding of the complex interactions that govern infectious disease spread.
+## Disease Modeling with SIR and SEIR Models
+
+This section applies Python to simulate disease dynamics using the SIR and SEIR models. It explores transmission and recovery processes, showing how different disease parameters affect population health. Simulations include oscillatory behaviors and phase portraits to visualize disease spread under varying conditions.
+
+## Advanced Topics in Epidemiological Modeling
+
+This section covers advanced topics like stochastic processes, parameter sensitivity analysis, and their impact on disease dynamics. It delves into stochastic resonance, transient dynamics, network-based models, and vaccination strategy simulations. Detailed simulations and visualizations offer a deep understanding of the complex interactions that govern infectious disease spread.
+
+Explore each folder for code, simulations, and detailed reports.
