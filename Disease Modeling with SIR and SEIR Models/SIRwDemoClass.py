@@ -7,17 +7,6 @@ from scipy.fft import fft, fftfreq
 class SIRWithDemography:
     """
     A class to represent the SIR model with demographic factors (birth and death rates).
-    
-    Attributes:
-    -----------
-    beta : float
-        The transmission rate of the disease.
-    gamma : float
-        The recovery rate of the disease.
-    mu : float
-        The birth and death rate of the population.
-    initial_conditions : list
-        Initial values for the Susceptible, Infected, and Recovered populations.
     """
     def __init__(self, beta, gamma, mu, initial_conditions):
         """

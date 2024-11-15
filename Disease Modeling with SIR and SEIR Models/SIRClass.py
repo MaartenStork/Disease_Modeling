@@ -7,15 +7,6 @@ from scipy.fft import fft, fftfreq
 class SIRModel:
     """
     A class to represent the basic SIR (Susceptible-Infected-Recovered) epidemiological model.
-    
-    Attributes:
-    -----------
-    beta : float
-        The transmission rate of the disease.
-    gamma : float
-        The recovery rate of the disease.
-    initial_conditions : list
-        Initial values for the Susceptible, Infected, and Recovered populations.
     """
     def __init__(self, beta, gamma, initial_conditions):
         """

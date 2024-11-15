@@ -7,19 +7,6 @@ from scipy.fft import fft, fftfreq
 class SEIRModelWithSeasonality(SEIRModel):
     """
     A class to represent the SEIR model with seasonality.
-    
-    Attributes:
-    -----------
-    beta0 : float
-        The average transmission rate over the year.
-    beta1 : float
-        The amplitude of seasonal variation in the transmission rate.
-    gamma : float
-        The recovery rate of the disease.
-    sigma : float
-        The rate at which individuals move from the exposed to the infected class.
-    initial_conditions : list
-        Initial values for the Susceptible, Exposed, Infected, and Recovered populations.
     """
     def __init__(self, beta0, beta1, gamma, sigma, initial_conditions):
         """

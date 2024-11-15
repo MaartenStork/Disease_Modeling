@@ -7,17 +7,6 @@ from scipy.fft import fft, fftfreq
 class SEIRModel:
     """
     A class to represent the SEIR (Susceptible-Exposed-Infected-Recovered) epidemiological model.
-    
-    Attributes:
-    -----------
-    beta : float
-        The transmission rate of the disease.
-    gamma : float
-        The recovery rate of the disease.
-    sigma : float
-        The rate at which individuals move from the exposed to the infected class.
-    initial_conditions : list
-        Initial values for the Susceptible, Exposed, Infected, and Recovered populations.
     """
     def __init__(self, beta, gamma, sigma, initial_conditions):
         """
