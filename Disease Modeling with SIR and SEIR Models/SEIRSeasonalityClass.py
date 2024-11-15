@@ -101,25 +101,6 @@ class SEIRModelWithSeasonality(SEIRModel):
 # Example usage
 t = np.linspace(0, 1000, 1000)
 
-# SIR Model
-sir_model = SIRModel(beta=0.3, gamma=0.1, initial_conditions=[0.99, 0.01, 0])
-sir_model.simulate(t)
-sir_model.plot_results(t)
-sir_model.plot_phase_portrait()
-
-# SIR Model with Demography
-sir_demo_model = SIRWithDemography(beta=0.3, gamma=0.1, mu=0.01, initial_conditions=[0.99, 0.01, 0])
-sir_demo_model.simulate(t)
-sir_demo_model.plot_results(t)
-sir_demo_model.plot_phase_portrait()
-
-# SEIR Model
-seir_model = SEIRModel(beta=0.3, gamma=0.1, sigma=0.2, initial_conditions=[0.99, 0.0, 0.01, 0])
-seir_model.simulate(t)
-seir_model.plot_results(t)
-seir_model.plot_phase_portrait()
-seir_model.plot_fourier_transform(t)
-
 # SEIR Model with Seasonality
 seir_seasonal_model = SEIRModelWithSeasonality(beta0=0.3, beta1=0.2, gamma=0.1, sigma=0.2, initial_conditions=[0.99, 0.0, 0.01, 0])
 seir_seasonal_model.simulate(t)

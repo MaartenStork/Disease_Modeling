@@ -99,3 +99,12 @@ class SIRModel:
         plt.title('Phase Portrait of SIR Model')
         plt.legend()
         plt.show()
+
+# Example usage
+t = np.linspace(0, 1000, 1000)
+
+# SIR Model
+sir_model = SIRModel(beta=0.3, gamma=0.1, initial_conditions=[0.99, 0.01, 0])
+sir_model.simulate(t)
+sir_model.plot_results(t)
+sir_model.plot_phase_portrait()

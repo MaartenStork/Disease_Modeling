@@ -127,3 +127,9 @@ class SEIRModel:
         plt.title('Fourier Transform of Infected Population in SEIR Model')
         plt.show()
 
+# SEIR Model
+seir_model = SEIRModel(beta=0.3, gamma=0.1, sigma=0.2, initial_conditions=[0.99, 0.0, 0.01, 0])
+seir_model.simulate(t)
+seir_model.plot_results(t)
+seir_model.plot_phase_portrait()
+seir_model.plot_fourier_transform(t)

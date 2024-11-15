@@ -104,3 +104,12 @@ class SIRWithDemography:
         plt.title('Phase Portrait of SIR Model with Demography')
         plt.legend()
         plt.show()
+
+# Example usage
+t = np.linspace(0, 1000, 1000)
+
+# SIR Model with Demography
+sir_demo_model = SIRWithDemography(beta=0.3, gamma=0.1, mu=0.01, initial_conditions=[0.99, 0.01, 0])
+sir_demo_model.simulate(t)
+sir_demo_model.plot_results(t)
+sir_demo_model.plot_phase_portrait()
