@@ -8,6 +8,8 @@ This section applies Python to simulate disease dynamics using the SIR and SEIR 
 
 <p align="center">
   <img src="Assets/sir_model_animation.gif" alt="Disease Spread Simulation" width="60%">
+  <br>
+  <em>Figure 1: Simulation of disease dynamics over time using the SIR model with demography.</em>
 </p>
 
 ## Advanced Topics in Epidemiological Modeling
@@ -16,6 +18,8 @@ This section covers advanced topics like stochastic processes, parameter sensiti
 
 <p align="center">
   <img src="Assets/network_spread_animation_fast.gif" alt="Disease Spread Simulation" width="60%">
+  <br>
+    <em>Figure 2: Visualization of disease dynamics on a network, illustrating how infection spreads through interconnected nodes over time.</em>
 </p>
 
 Explore each folder for code, simulations, and detailed reports.
